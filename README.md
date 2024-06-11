@@ -7,7 +7,7 @@
 Run the following commands to bootstrap your environment:
 
     sudo apt-get install -y git python-venv python-pip
-    git clone 
+    git clone https://github.com/OlgaPertsova/Landing-page.git
     cd landing-page
 
     python -m venv venv
@@ -22,7 +22,7 @@ Run the app locally:
 
 Run the app docker:
 
-    git clone 
+    git clone https://github.com/OlgaPertsova/Landing-page.git
     cd landing-page
     docker build . --tag docker-landing-page
     docker images
